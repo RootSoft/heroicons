@@ -10,7 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_svg: ^1.0.3
+  flutter_svg:
+    git:
+      url: https://github.com/dnfield/flutter_svg.git
+      ref: master
   path: ^1.8.0
 
 dev_dependencies:
